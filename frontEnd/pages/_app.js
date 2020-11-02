@@ -14,6 +14,7 @@ import '../styles/illustrations.css';
 
 import '../styles/pages/index.css';
 import '../styles/pages/about.css';
+import '../styles/pages/blog.css';
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />

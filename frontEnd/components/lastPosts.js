@@ -59,7 +59,7 @@ function LastPosts() {
                     </Card>
 
                     <Card className='blog-card-line'>
-                        <img src={require('../images/blog/blog3.png')} />
+                        <img src={require('../images/blog/little/blog3.png')} />
                         <Card.Body className='blog-card-line-body'>
                             <Card.Title className='title title-little color-black'>Por que consumir alimentos orgânicos?</Card.Title>
                             <div className='blog-card-footer'>
@@ -77,7 +77,7 @@ function LastPosts() {
 
                     </Card>
                     <Card className='blog-card-line'>
-                        <img src={require('../images/blog/blog4.png')} />
+                        <img src={require('../images/blog/little/blog4.png')} />
                         <Card.Body className='blog-card-line-body'>
                             <Card.Title className='title title-little color-black'>9 receitas vegetarianas e veganas perfeitas...</Card.Title>
                             <div className='blog-card-footer'>
@@ -94,7 +94,7 @@ function LastPosts() {
                         </Card.Body>
                     </Card>
                     <Card className='blog-card-line'>
-                        <img src={require('../images/blog/blog5.png')} />
+                        <img src={require('../images/blog/little/blog5.png')} />
                         <Card.Body className='blog-card-line-body'>
                             <Card.Title className='title title-little color-black'>Conheça a fazenda tamatanduba</Card.Title>
                             <div className='blog-card-footer'>
@@ -111,7 +111,7 @@ function LastPosts() {
                         </Card.Body>
                     </Card>
                     <Card className='blog-card-line'>
-                        <img src={require('../images/blog/blog6.png')} />
+                        <img src={require('../images/blog/little/blog6.png')} />
                         <Card.Body className='blog-card-line-body'>
                             <Card.Title className='title title-little color-black'>Como deve ser a alimentação para quem faz academia?</Card.Title>
                             <div className='blog-card-footer'>

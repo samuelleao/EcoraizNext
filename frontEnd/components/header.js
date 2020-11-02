@@ -42,7 +42,7 @@ function Header() {
                 <Nav className='ml-auto align-items-center menu-links'>
                     <div className='nav-link'>
                         <Link href='/'>
-                            <a className={`link ${isActive('/')}`} >Inicio</a>
+                            <a className={`link ${isActive('/')}`} >Início</a>
                         </Link>
                     </div>
                     <div className='nav-link'>
@@ -56,8 +56,8 @@ function Header() {
                         </Link>
                     </div>
                     <div className='nav-link'>
-                        <Link href='/'>
-                            <a className={`link ${isActive('')}`}>Blog</a>
+                        <Link href='/blog'>
+                            <a className={`link ${isActive('/blog')}`}>Blog</a>
                         </Link>
                     </div>
                     <div className='nav-link'>
