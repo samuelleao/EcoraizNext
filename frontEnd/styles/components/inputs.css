@@ -1,0 +1,19 @@
+.form-control{
+    height: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 2px solid #CCD0D5;
+    font-weight: 400 !important;
+}
+
+.input-group-text{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 2px solid #CCD0D5;
+    background-color: transparent;
+}
+
+.form-control:focus {
+    border-color: #64bf62 !important;
+    box-shadow: 0 0 0 0.2rem rgb(100 191 98 / 26%) !important;
+}

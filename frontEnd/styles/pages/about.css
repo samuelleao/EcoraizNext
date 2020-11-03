@@ -50,6 +50,7 @@
     padding: 40px 15px;
     max-width: 245px;
     text-align: center;
+    z-index: 1;
 }
 
 .about .section3 .cards-goals {

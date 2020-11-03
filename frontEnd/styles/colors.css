@@ -3,6 +3,7 @@
     --color-second: #E3B520;
     --color-black: #313131;
     --color-grey: #757575;
+    --color-green: #64BF62;
 }
 
 .color-primary{
@@ -27,6 +28,10 @@
 
 .bg-color-second{
     background: var(--color-second) ;
+}
+
+.bg-color-green{
+    background-color: var(--color-green)
 }
 
 .bg-light{

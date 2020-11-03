@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Navbar, Nav, Container } from 'react-bootstrap';
 import Link from 'next/link'
-import {useRouter} from 'next/router';
+import { useRouter } from 'next/router';
 
 function Header() {
 
@@ -20,10 +20,10 @@ function Header() {
     }
 
     const router = useRouter()
-    function isActive(route){
-        if(route == router.pathname){
+    function isActive(route) {
+        if (route == router.pathname) {
             return "nav-link-active"
-        }else{
+        } else {
             return ''
         }
     }
@@ -65,7 +65,11 @@ function Header() {
                             <a className={`link ${isActive('')}`}>Contatos</a>
                         </Link>
                     </div>
-                    <Button className='bt-standard bg-color-second bt-standard-second m-0'>Produto</Button>
+                    <Link href='/product'>
+                        <a>
+                            <Button className='bt-standard bg-color-second bt-standard-second m-0'>Produto</Button>
+                        </a>
+                    </Link>
                 </Nav>
             </Container>
         </Navbar>

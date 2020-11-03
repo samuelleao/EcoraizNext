@@ -58,3 +58,13 @@
     background-position: right;
     background-position: right 20%;
 }
+
+
+@media(max-width: 991px){
+    .illustration-line-left::after {
+        background-position: top left;
+    }
+    .about .section1 .illustration-branch-white {
+        background-position: bottom left !important; 
+    }
+}

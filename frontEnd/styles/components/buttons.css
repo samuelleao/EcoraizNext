@@ -43,4 +43,20 @@
 }
 
 
+button.bg-color-green:hover{
+    background-color: #68cc66 !important;
+    border-color: #68cc66;
+}
 
+button.bg-color-green:not(:disabled):not(.disabled).active, 
+button.bg-color-green:not(:disabled):not(.disabled):active, 
+.show>.bt-standard.dropdown-toggle {
+    background-color: #68cc66 !important;
+    border-color: #68cc66;
+}
+
+button.bg-color-green:focus {
+    color: #fff;
+    background-color: #68cc66 !important;
+    border-color: #68cc66;
+}
