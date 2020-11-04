@@ -18,6 +18,8 @@ footer .social-medias a {
     align-items: center;
     justify-content: center;
     color: #fff;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
 }
 
 footer .social-medias a:nth-child(1) {
@@ -30,6 +32,24 @@ footer .social-medias a:nth-child(2) {
 
 footer .social-medias a:nth-child(3) {
     background-color: #CB2027;
+}
+
+footer .social-medias a:nth-child(1):hover {
+    border-color: #3B5998;
+    color: #3B5998;
+    background-color: transparent;
+}
+
+footer .social-medias a:nth-child(2):hover {
+    border-color: #D62976;
+    color: #D62976;
+    background-color: transparent;
+}
+
+footer .social-medias a:nth-child(3):hover {
+    border-color: #CB2027;
+    color: #CB2027;
+    background-color: transparent;
 }
 
 footer ul{

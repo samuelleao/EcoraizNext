@@ -18,6 +18,7 @@ import '../styles/pages/index.css';
 import '../styles/pages/about.css';
 import '../styles/pages/blog.css';
 import '../styles/pages/product.css';
+import '../styles/pages/contact.css';
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />

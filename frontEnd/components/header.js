@@ -32,7 +32,11 @@ function Header() {
         <Navbar className='navbar fixed-top' expand='lg'>
             <Container>
                 <Navbar.Brand>
-                    <img src={require('../images/logo/logoPrimary.png')} alt='Ecoraiz' title='Ecoraiz' />
+                    <Link href='/'>
+                        <a>
+                            <img src={require('../images/logo/logoPrimary.png')} alt='Ecoraiz' title='Ecoraiz' />
+                        </a>
+                    </Link>
                 </Navbar.Brand>
                 <label className='menu_button_mobile' type='button' onClick={showMenuMobile} >
                     <span className='menu_button_mobile_icon_custom'></span>
@@ -40,7 +44,7 @@ function Header() {
                     <span className='menu_button_mobile_icon_custom'></span>
                 </label>
                 <Nav className='ml-auto align-items-center menu-links'>
-                    <div className='nav-link'>
+                    <div className='nav-link mt-lg-0 mt-5'>
                         <Link href='/'>
                             <a className={`link ${isActive('/')}`} >Início</a>
                         </Link>
@@ -61,15 +65,17 @@ function Header() {
                         </Link>
                     </div>
                     <div className='nav-link'>
-                        <Link href='/'>
-                            <a className={`link ${isActive('')}`}>Contatos</a>
+                        <Link href='/contact'>
+                            <a className={`link ${isActive('/contact')}`}>Contatos</a>
                         </Link>
                     </div>
-                    <Link href='/product'>
-                        <a>
-                            <Button className='bt-standard bg-color-second bt-standard-second m-0'>Produto</Button>
-                        </a>
-                    </Link>
+                    <div className='nav-link buttonArea'>
+                        <Link href='/product'>
+                            <a>
+                                <Button className='bt-standard bg-color-second bt-standard-second m-0'>Produto</Button>
+                            </a>
+                        </Link>
+                    </div>
                 </Nav>
             </Container>
         </Navbar>

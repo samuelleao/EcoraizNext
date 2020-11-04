@@ -10,6 +10,10 @@
     padding: 2rem !important;
 }
 
+.buttonArea{
+    padding: 0px !important;
+}
+
 .link{
     color: #C4C4C4 ;
     text-decoration: none !important;
@@ -106,9 +110,12 @@
         transform: translateY(-150%);
         transition: .3s;
         z-index: -1;
-        padding-top: 100px;
+        margin-top: 66px;
         overflow: auto;
+        padding-bottom: 100px;
+        height: 100vh;
     }
+
     /* Class To Active Menu Mobile*/
     .show_menu {
         transform: translateY(0) !important;

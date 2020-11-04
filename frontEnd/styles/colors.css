@@ -22,6 +22,10 @@
     color: var(--color-grey);
 }
 
+.color-green{
+    color: var(--color-green)
+}
+
 .bg-color-primary{
     background: var(--color-primary) ;
 }

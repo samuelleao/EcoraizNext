@@ -1,0 +1,53 @@
+#info-contact-links {
+    grid-gap: 2em;
+}
+
+#info-contact-links .bt-standard {
+    background-color: transparent;
+    border-color: var(--color-green);
+    color: var(--color-black);
+    font-weight: 400 !important;
+    width: 100%;
+    position: relative;
+}
+
+#info-contact-links .bt-standard:hover {
+    background-color: var(--color-green);
+    color: white;
+}
+
+#info-contact-links .bt-standard:hover svg{
+    color: white !important;
+}
+
+#info-contact-links .bt-standard svg{
+    position: absolute;
+    left: 30px;
+    top: 19px;
+}
+
+#info-contact-links .bt-standard:focus {
+    background-color: var(--color-green) !important;
+    color: white;
+}
+
+#contact .card-form{
+    padding: 25px 30px;
+}
+
+#contact form .bt-standard{
+    width: 50%;
+}
+
+#contact textarea{
+    border-radius: 30px;
+}
+
+@media(max-width: 991px) {
+    #info-contact-links button, a {
+        width: 100%;
+    }
+    #contact form .bt-standard{
+        width: 100%;
+    }
+}
